@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WeatherForecast</string>
+    <string name="location">Location: %1$s</string>
+    <string name="temperature">Temperature: %1$s</string>
+    <string name="weather">Weather: %1$s</string>
+    <string name="enable_gps">Enable Gps</string>
+    <string name="required_for_this_app">Gps must be enabled for this app</string>
+    <string name="enable_now">Enable Now</string>
+    <string name="perms_not_granted">Permissions not granted</string>
+</resources>
