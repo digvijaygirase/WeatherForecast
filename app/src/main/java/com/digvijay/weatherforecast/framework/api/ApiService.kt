@@ -37,6 +37,7 @@ interface ApiService {
     suspend fun getWeatherData(
         @Query("lat") lat: Double,
         @Query("lon") lon: Double,
-        @Query("appid") apiKey: String = "8ecc5be353caeb05ad6c2b3fb02595f5"
+        @Query("appid") apiKey: String = "8ecc5be353caeb05ad6c2b3fb02595f5",
+        @Query("units") units:String = "metric"
     ): Response<WeatherResponse>
 }
